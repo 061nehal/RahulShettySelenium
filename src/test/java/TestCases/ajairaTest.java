@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import BaseClass.BrowserSetUp;
 
-public class ajaira extends BrowserSetUp {
+public class ajairaTest extends BrowserSetUp {
 	
 	@Test
 	public void ekkebareajaira() throws IOException {

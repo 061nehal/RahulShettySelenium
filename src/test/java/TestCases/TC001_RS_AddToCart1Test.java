@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import BaseClass.BrowserSetUp;
 
-public class TC001_RS_AddToCart1 extends BrowserSetUp {
+public class TC001_RS_AddToCart1Test extends BrowserSetUp {
 	
 	@Test
 	public void addToCart() {

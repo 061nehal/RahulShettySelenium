@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import BaseClass.BrowserSetUp;
 
-public class TC004_MultiWindows extends BrowserSetUp {
+public class TC004_MultiWindowsTest extends BrowserSetUp {
 	
 	@Test
 	public void multiWindows() throws InterruptedException, IOException {

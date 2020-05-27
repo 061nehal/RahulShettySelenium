@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import BaseClass.BrowserSetUp;
 
-public class TC003_ActionsClass extends BrowserSetUp {
+public class TC003_ActionsClassTest extends BrowserSetUp {
 	
 	@Test
 	public void amazonPractice() throws InterruptedException {
@@ -23,8 +23,8 @@ public class TC003_ActionsClass extends BrowserSetUp {
 		
 		Thread.sleep(3000);
 		
-		WebElement ele1=driver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]/span[2]"));
-		act.moveToElement(ele1).contextClick().build().perform();
+		//WebElement ele1=driver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]/span[2]"));
+		//act.moveToElement(ele1).contextClick().build().perform();
 		
 		
 		
