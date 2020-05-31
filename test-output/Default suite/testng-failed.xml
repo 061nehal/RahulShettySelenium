@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.TC003_ActionsClass">
+      <class name="TestCases.DigitalPoint">
         <methods>
+          <include name="digitalPointPractice"/>
           <include name="tearDown"/>
-          <include name="amazonPractice"/>
           <include name="setUpBrowser"/>
         </methods>
-      </class> <!-- TestCases.TC003_ActionsClass -->
+      </class> <!-- TestCases.DigitalPoint -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

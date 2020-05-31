@@ -1,4 +1,4 @@
-package TestCases;
+	package TestCases;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,6 +34,7 @@ public class ajairaTest extends BrowserSetUp {
 		FileUtils.copyFile(f, new File("C:\\Digital Point\\Screenshot\\Fcaebook.png"));
 		
 		for (int i=0; i<=9; i++) {
+			 
 			
 			from.sendKeys(Keys.ARROW_DOWN);
 		}

@@ -3,7 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestCases.ajaira"/>
       <class name="TestCases.TC003_ActionsClass"/>
       <class name="TestCases.TC004_MultiWindows"/>
       <class name="TestCases.TC001_RS_AddToCart1"/>

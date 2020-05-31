@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59258" started-at="2020-05-27T16:28:23 EDT" finished-at="2020-05-27T16:29:22 EDT">
+  <suite name="Default suite" duration-ms="14043" started-at="2020-05-31T16:32:41 EDT" finished-at="2020-05-31T16:32:55 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59258" started-at="2020-05-27T16:28:23 EDT" finished-at="2020-05-27T16:29:22 EDT">
-      <class name="TestCases.TC004_MultiWindows">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:TestCases.TC004_MultiWindows@4f063c0a]" name="setUpBrowser" is-config="true" duration-ms="5167" started-at="2020-05-27T16:28:52 EDT" finished-at="2020-05-27T16:28:57 EDT">
+    <test name="Default test" duration-ms="14043" started-at="2020-05-31T16:32:41 EDT" finished-at="2020-05-31T16:32:55 EDT">
+      <class name="TestCases.Assignment8">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:TestCases.Assignment8@5e853265]" name="setUpBrowser" is-config="true" duration-ms="5801" started-at="2020-05-31T16:32:41 EDT" finished-at="2020-05-31T16:32:47 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="multiWindows()[pri:0, instance:TestCases.TC004_MultiWindows@4f063c0a]" name="multiWindows" duration-ms="7998" started-at="2020-05-27T16:28:57 EDT" finished-at="2020-05-27T16:29:05 EDT">
+        <test-method status="PASS" signature="assignment()[pri:0, instance:TestCases.Assignment8@5e853265]" name="assignment" duration-ms="5215" started-at="2020-05-31T16:32:47 EDT" finished-at="2020-05-31T16:32:52 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiWindows -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC004_MultiWindows@4f063c0a]" name="tearDown" is-config="true" duration-ms="3000" started-at="2020-05-27T16:29:05 EDT" finished-at="2020-05-27T16:29:08 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC004_MultiWindows -->
-      <class name="TestCases.TC001_RS_AddToCart1">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:TestCases.TC001_RS_AddToCart1@1e6d1014]" name="setUpBrowser" is-config="true" duration-ms="5156" started-at="2020-05-27T16:29:08 EDT" finished-at="2020-05-27T16:29:13 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="addToCart()[pri:0, instance:TestCases.TC001_RS_AddToCart1@1e6d1014]" name="addToCart" duration-ms="6152" started-at="2020-05-27T16:29:13 EDT" finished-at="2020-05-27T16:29:19 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC001_RS_AddToCart1@1e6d1014]" name="tearDown" is-config="true" duration-ms="3002" started-at="2020-05-27T16:29:19 EDT" finished-at="2020-05-27T16:29:22 EDT">
+        </test-method> <!-- assignment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Assignment8@5e853265]" name="tearDown" is-config="true" duration-ms="3000" started-at="2020-05-31T16:32:52 EDT" finished-at="2020-05-31T16:32:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC001_RS_AddToCart1 -->
-      <class name="TestCases.TC003_ActionsClass">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:TestCases.TC003_ActionsClass@2a17b7b6]" name="setUpBrowser" is-config="true" duration-ms="5163" started-at="2020-05-27T16:28:38 EDT" finished-at="2020-05-27T16:28:44 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="amazonPractice()[pri:0, instance:TestCases.TC003_ActionsClass@2a17b7b6]" name="amazonPractice" duration-ms="5210" started-at="2020-05-27T16:28:44 EDT" finished-at="2020-05-27T16:28:49 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amazonPractice -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC003_ActionsClass@2a17b7b6]" name="tearDown" is-config="true" duration-ms="3001" started-at="2020-05-27T16:28:49 EDT" finished-at="2020-05-27T16:28:52 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC003_ActionsClass -->
-      <class name="TestCases.ajaira">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:TestCases.ajaira@5d76b067]" name="setUpBrowser" is-config="true" duration-ms="5688" started-at="2020-05-27T16:28:23 EDT" finished-at="2020-05-27T16:28:29 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ekkebareajaira()[pri:0, instance:TestCases.ajaira@5d76b067]" name="ekkebareajaira" duration-ms="6682" started-at="2020-05-27T16:28:29 EDT" finished-at="2020-05-27T16:28:35 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ekkebareajaira -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.ajaira@5d76b067]" name="tearDown" is-config="true" duration-ms="3002" started-at="2020-05-27T16:28:35 EDT" finished-at="2020-05-27T16:28:38 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.ajaira -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- TestCases.Assignment8 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
